@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  chatbot-webapp:
+    build: "./trippy-chatbot-webapp"
+    ports:
+    - 8081:8000
+
